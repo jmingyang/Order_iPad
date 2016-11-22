@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5ED8F571DE4309000EF5A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F561DE4309000EF5A42 /* main.m */; };
+		B5ED8F5A1DE4309000EF5A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F591DE4309000EF5A42 /* AppDelegate.m */; };
+		B5ED8F5D1DE4309000EF5A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F5C1DE4309000EF5A42 /* ViewController.m */; };
+		B5ED8F601DE4309000EF5A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5ED8F5E1DE4309000EF5A42 /* Main.storyboard */; };
+		B5ED8F631DE4309000EF5A42 /* Order_iPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F611DE4309000EF5A42 /* Order_iPad.xcdatamodeld */; };
+		B5ED8F651DE4309000EF5A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ED8F641DE4309000EF5A42 /* Assets.xcassets */; };
+		B5ED8F681DE4309000EF5A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5ED8F661DE4309000EF5A42 /* LaunchScreen.storyboard */; };
+		B5ED8F731DE4309100EF5A42 /* Order_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F721DE4309100EF5A42 /* Order_iPadTests.m */; };
+		B5ED8F7E1DE4309100EF5A42 /* Order_iPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F7D1DE4309100EF5A42 /* Order_iPadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5ED8F6F1DE4309100EF5A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5ED8F4A1DE4309000EF5A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5ED8F511DE4309000EF5A42;
+			remoteInfo = Order_iPad;
+		};
+		B5ED8F7A1DE4309100EF5A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5ED8F4A1DE4309000EF5A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5ED8F511DE4309000EF5A42;
+			remoteInfo = Order_iPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5ED8F521DE4309000EF5A42 /* Order_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Order_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5ED8F561DE4309000EF5A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5ED8F581DE4309000EF5A42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5ED8F591DE4309000EF5A42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5ED8F5B1DE4309000EF5A42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5ED8F5C1DE4309000EF5A42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5ED8F5F1DE4309000EF5A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5ED8F621DE4309000EF5A42 /* Order_iPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Order_iPad.xcdatamodel; sourceTree = "<group>"; };
+		B5ED8F641DE4309000EF5A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5ED8F671DE4309000EF5A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5ED8F691DE4309000EF5A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5ED8F6E1DE4309100EF5A42 /* Order_iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Order_iPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5ED8F721DE4309100EF5A42 /* Order_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Order_iPadTests.m; sourceTree = "<group>"; };
+		B5ED8F741DE4309100EF5A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5ED8F791DE4309100EF5A42 /* Order_iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Order_iPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5ED8F7D1DE4309100EF5A42 /* Order_iPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Order_iPadUITests.m; sourceTree = "<group>"; };
+		B5ED8F7F1DE4309100EF5A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5ED8F4F1DE4309000EF5A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED8F6B1DE4309100EF5A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED8F761DE4309100EF5A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5ED8F491DE4309000EF5A42 = {
+			isa = PBXGroup;
+			children = (
+				B5ED8F541DE4309000EF5A42 /* Order_iPad */,
+				B5ED8F711DE4309100EF5A42 /* Order_iPadTests */,
+				B5ED8F7C1DE4309100EF5A42 /* Order_iPadUITests */,
+				B5ED8F531DE4309000EF5A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5ED8F531DE4309000EF5A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED8F521DE4309000EF5A42 /* Order_iPad.app */,
+				B5ED8F6E1DE4309100EF5A42 /* Order_iPadTests.xctest */,
+				B5ED8F791DE4309100EF5A42 /* Order_iPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5ED8F541DE4309000EF5A42 /* Order_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED8F581DE4309000EF5A42 /* AppDelegate.h */,
+				B5ED8F591DE4309000EF5A42 /* AppDelegate.m */,
+				B5ED8F5B1DE4309000EF5A42 /* ViewController.h */,
+				B5ED8F5C1DE4309000EF5A42 /* ViewController.m */,
+				B5ED8F5E1DE4309000EF5A42 /* Main.storyboard */,
+				B5ED8F641DE4309000EF5A42 /* Assets.xcassets */,
+				B5ED8F661DE4309000EF5A42 /* LaunchScreen.storyboard */,
+				B5ED8F691DE4309000EF5A42 /* Info.plist */,
+				B5ED8F611DE4309000EF5A42 /* Order_iPad.xcdatamodeld */,
+				B5ED8F551DE4309000EF5A42 /* Supporting Files */,
+			);
+			path = Order_iPad;
+			sourceTree = "<group>";
+		};
+		B5ED8F551DE4309000EF5A42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED8F561DE4309000EF5A42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5ED8F711DE4309100EF5A42 /* Order_iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED8F721DE4309100EF5A42 /* Order_iPadTests.m */,
+				B5ED8F741DE4309100EF5A42 /* Info.plist */,
+			);
+			path = Order_iPadTests;
+			sourceTree = "<group>";
+		};
+		B5ED8F7C1DE4309100EF5A42 /* Order_iPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED8F7D1DE4309100EF5A42 /* Order_iPadUITests.m */,
+				B5ED8F7F1DE4309100EF5A42 /* Info.plist */,
+			);
+			path = Order_iPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5ED8F511DE4309000EF5A42 /* Order_iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5ED8F821DE4309100EF5A42 /* Build configuration list for PBXNativeTarget "Order_iPad" */;
+			buildPhases = (
+				B5ED8F4E1DE4309000EF5A42 /* Sources */,
+				B5ED8F4F1DE4309000EF5A42 /* Frameworks */,
+				B5ED8F501DE4309000EF5A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Order_iPad;
+			productName = Order_iPad;
+			productReference = B5ED8F521DE4309000EF5A42 /* Order_iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5ED8F6D1DE4309100EF5A42 /* Order_iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5ED8F851DE4309100EF5A42 /* Build configuration list for PBXNativeTarget "Order_iPadTests" */;
+			buildPhases = (
+				B5ED8F6A1DE4309100EF5A42 /* Sources */,
+				B5ED8F6B1DE4309100EF5A42 /* Frameworks */,
+				B5ED8F6C1DE4309100EF5A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5ED8F701DE4309100EF5A42 /* PBXTargetDependency */,
+			);
+			name = Order_iPadTests;
+			productName = Order_iPadTests;
+			productReference = B5ED8F6E1DE4309100EF5A42 /* Order_iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5ED8F781DE4309100EF5A42 /* Order_iPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5ED8F881DE4309100EF5A42 /* Build configuration list for PBXNativeTarget "Order_iPadUITests" */;
+			buildPhases = (
+				B5ED8F751DE4309100EF5A42 /* Sources */,
+				B5ED8F761DE4309100EF5A42 /* Frameworks */,
+				B5ED8F771DE4309100EF5A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5ED8F7B1DE4309100EF5A42 /* PBXTargetDependency */,
+			);
+			name = Order_iPadUITests;
+			productName = Order_iPadUITests;
+			productReference = B5ED8F791DE4309100EF5A42 /* Order_iPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5ED8F4A1DE4309000EF5A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Gooou;
+				TargetAttributes = {
+					B5ED8F511DE4309000EF5A42 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B5ED8F6D1DE4309100EF5A42 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B5ED8F511DE4309000EF5A42;
+					};
+					B5ED8F781DE4309100EF5A42 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B5ED8F511DE4309000EF5A42;
+					};
+				};
+			};
+			buildConfigurationList = B5ED8F4D1DE4309000EF5A42 /* Build configuration list for PBXProject "Order_iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5ED8F491DE4309000EF5A42;
+			productRefGroup = B5ED8F531DE4309000EF5A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5ED8F511DE4309000EF5A42 /* Order_iPad */,
+				B5ED8F6D1DE4309100EF5A42 /* Order_iPadTests */,
+				B5ED8F781DE4309100EF5A42 /* Order_iPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5ED8F501DE4309000EF5A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ED8F681DE4309000EF5A42 /* LaunchScreen.storyboard in Resources */,
+				B5ED8F651DE4309000EF5A42 /* Assets.xcassets in Resources */,
+				B5ED8F601DE4309000EF5A42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED8F6C1DE4309100EF5A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED8F771DE4309100EF5A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5ED8F4E1DE4309000EF5A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ED8F631DE4309000EF5A42 /* Order_iPad.xcdatamodeld in Sources */,
+				B5ED8F5D1DE4309000EF5A42 /* ViewController.m in Sources */,
+				B5ED8F5A1DE4309000EF5A42 /* AppDelegate.m in Sources */,
+				B5ED8F571DE4309000EF5A42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED8F6A1DE4309100EF5A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ED8F731DE4309100EF5A42 /* Order_iPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED8F751DE4309100EF5A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ED8F7E1DE4309100EF5A42 /* Order_iPadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5ED8F701DE4309100EF5A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5ED8F511DE4309000EF5A42 /* Order_iPad */;
+			targetProxy = B5ED8F6F1DE4309100EF5A42 /* PBXContainerItemProxy */;
+		};
+		B5ED8F7B1DE4309100EF5A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5ED8F511DE4309000EF5A42 /* Order_iPad */;
+			targetProxy = B5ED8F7A1DE4309100EF5A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5ED8F5E1DE4309000EF5A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5ED8F5F1DE4309000EF5A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5ED8F661DE4309000EF5A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5ED8F671DE4309000EF5A42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5ED8F801DE4309100EF5A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B5ED8F811DE4309100EF5A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5ED8F831DE4309100EF5A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Order_iPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gooou.Order-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5ED8F841DE4309100EF5A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Order_iPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gooou.Order-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5ED8F861DE4309100EF5A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Order_iPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gooou.Order-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Order_iPad.app/Order_iPad";
+			};
+			name = Debug;
+		};
+		B5ED8F871DE4309100EF5A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Order_iPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gooou.Order-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Order_iPad.app/Order_iPad";
+			};
+			name = Release;
+		};
+		B5ED8F891DE4309100EF5A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Order_iPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gooou.Order-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Order_iPad;
+			};
+			name = Debug;
+		};
+		B5ED8F8A1DE4309100EF5A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Order_iPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gooou.Order-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Order_iPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5ED8F4D1DE4309000EF5A42 /* Build configuration list for PBXProject "Order_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ED8F801DE4309100EF5A42 /* Debug */,
+				B5ED8F811DE4309100EF5A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5ED8F821DE4309100EF5A42 /* Build configuration list for PBXNativeTarget "Order_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ED8F831DE4309100EF5A42 /* Debug */,
+				B5ED8F841DE4309100EF5A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5ED8F851DE4309100EF5A42 /* Build configuration list for PBXNativeTarget "Order_iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ED8F861DE4309100EF5A42 /* Debug */,
+				B5ED8F871DE4309100EF5A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5ED8F881DE4309100EF5A42 /* Build configuration list for PBXNativeTarget "Order_iPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ED8F891DE4309100EF5A42 /* Debug */,
+				B5ED8F8A1DE4309100EF5A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5ED8F611DE4309000EF5A42 /* Order_iPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5ED8F621DE4309000EF5A42 /* Order_iPad.xcdatamodel */,
+			);
+			currentVersion = B5ED8F621DE4309000EF5A42 /* Order_iPad.xcdatamodel */;
+			path = Order_iPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5ED8F4A1DE4309000EF5A42 /* Project object */;
+}
