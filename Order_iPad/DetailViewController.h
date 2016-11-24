@@ -15,6 +15,6 @@
     HomeView *homePage;
 
 }
-
+@property (strong, nonatomic) NSMutableDictionary *PhotoDic;//图片
 @property (strong, nonatomic) NSMutableArray *FoodsArr;//Food数组
 @end

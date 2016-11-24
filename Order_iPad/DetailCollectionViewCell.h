@@ -11,7 +11,7 @@
 @interface DetailCollectionViewCell : UICollectionViewCell{
     UILabel *numLab;
     UIButton *numBtn;
-    UITextView *foodName;
+    UILabel *foodName;
     UILabel *foodPrice;
     Food *food;
 

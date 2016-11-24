@@ -53,10 +53,10 @@
         [self addSubview:numLab];
         
         
-        foodName = [[UITextView alloc] initWithFrame:CGRectMake(0, 285, 200, 55)];
+        foodName = [[UILabel alloc] initWithFrame:CGRectMake(0, 285, 200, 55)];
 //        foodName.textColor = RED_COLOR_DEEP;
-        foodName.editable = NO;
-        foodName.scrollEnabled = NO;
+        
+        foodName.numberOfLines = 2;
         foodName.font = [UIFont systemFontOfSize:18];
         foodName.backgroundColor = [UIColor clearColor];
         [self addSubview:foodName];
@@ -109,10 +109,10 @@
 }
 
 -(void)fillCellWithFood:(Food *)f{
-    foodName.text = [NSString stringWithFormat:@"%@   %@",f.FoodsChiName,f.FoodsEngName];
+    foodName.text = [NSString stringWithFormat:@"%@\n%@",f.FoodsChiName,f.FoodsEngName];
     if ([f.FoodsEngName length] == 0) {
         foodName.font = [UIFont systemFontOfSize:24];
-        [foodName setContentInset:UIEdgeInsetsMake(0, 3, 0, 0)];
+//        [foodName setContentInset:UIEdgeInsetsMake(0, 3, 0, 0)];
     }
     
     foodPrice.text = [NSString stringWithFormat:@"%d/%@",[f.Price intValue],f.FoodsMode];

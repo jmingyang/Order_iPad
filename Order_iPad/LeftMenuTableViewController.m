@@ -27,7 +27,9 @@
     
     self.title =@"菜类";
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor blackColor];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20],NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
     
     NSLog(@"%@",[[NSBundle mainBundle] pathForResource:@"foodInfo.xml" ofType:nil]);
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"foodInfo.xml" ofType:nil];
@@ -37,8 +39,6 @@
     [xp parseXMLWithFile:str];
     FoodDic = [xp getParsedXMLDictionary];
     MunuArr = [NSMutableArray arrayWithArray:[xp getAttachCategoryNames]];
-
-    NSLog(@"foods are %@",FoodDic);
 
     //默认选中第一行
     NSIndexPath *path=[NSIndexPath indexPathForItem:0 inSection:2];

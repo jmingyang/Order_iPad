@@ -25,9 +25,12 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
+        self.backgroundColor = [UIColor blackColor];
+        
         lab = [[UILabel alloc]initWithFrame:CGRectMake(10, 18, self.frame.size.width, 21)];
         lab.font = [UIFont boldSystemFontOfSize:24];
         lab.textAlignment = NSTextAlignmentLeft;
+        lab.textColor = [UIColor whiteColor];
         [self addSubview:lab];
     }
     return self;

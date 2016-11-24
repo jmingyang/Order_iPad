@@ -30,8 +30,8 @@
 static NSString * const reuseidentifier = @"cell";
 
 @synthesize mPicCollectionView;
-
 @synthesize FoodsArr;
+@synthesize PhotoDic;
 //随机颜色
 #define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
 #define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
@@ -40,10 +40,9 @@ static NSString * const reuseidentifier = @"cell";
     [super viewDidLoad];
     
     //1024 1366
-    
-//    self.navigationItem.title = @"菜";
-//    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20],NSForegroundColorAttributeName:[UIColor whiteColor]}];
-//    self.navigationController.view.backgroundColor = [UIColor colorWithRed:25.0/255 green:173.0/255 blue:148.0/255 alpha:1.0];
+
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20],NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
     
     self.splitViewController.delegate = self;
     self.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
@@ -58,8 +57,6 @@ static NSString * const reuseidentifier = @"cell";
 //    [self.view addSubview:content_background];
     self.view.backgroundColor = [UIColor blackColor];
 
-    NSLog(@"%@",FoodsArr);
-    
     [self initCollectionView];
     
     //我的账单按钮
@@ -85,7 +82,6 @@ static NSString * const reuseidentifier = @"cell";
     [self.view addSubview:homeBtn];
 
     homePage = [HomeView sharedHMView];
-//    homePage = [[HomeView alloc] initWithFrame:CGRectMake(0, 0, 1366, 1024)];
     UIWindow* currentWindow = [UIApplication sharedApplication].keyWindow;
     [currentWindow addSubview:homePage];
 }
@@ -93,8 +89,6 @@ static NSString * const reuseidentifier = @"cell";
 - (void)fillFoodInfo:(NSArray *)arr typename:(NSString *)type{
     
     self.navigationItem.title = type;
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20],NSForegroundColorAttributeName:[UIColor blackColor]}];
-    self.navigationController.view.backgroundColor = [UIColor colorWithRed:25.0/255 green:173.0/255 blue:148.0/255 alpha:1.0];
     self.FoodsArr = [NSMutableArray arrayWithArray:arr];
 
 
@@ -196,36 +190,46 @@ static NSString * const reuseidentifier = @"cell";
     }
 
     Food *f = FoodsArr[indexPath.row];
-    
-
     [cell fillCellWithFood:f];
-    
+    UIImage *image = PhotoDic[f.FoodsChiName];
+    if (image) {
+        //存在：说明图片已经下载成功，并缓存成功）
+        cell.imaView.image = image;
+    } else {
+        // 不存在：说明图片并未下载成功过，或者成功下载但是在images里缓存失败，需要在沙盒里寻找对于的图片
+        // 获得url对于的沙盒缓存路径
+        
+        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
+        NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:f.FoodsChiName];   // 保存文件的名称
 
-    NSString *str = [NSString stringWithString:f.PicBigPath];
-    NSArray *arr = [str componentsSeparatedByString:@"h"];
-    NSString *string = [NSString stringWithString:arr[1]];
-    NSString *beginstr = [string substringToIndex:string.length-9];
-    NSString *urlString = [NSString stringWithFormat:@"h%@",beginstr];
-    
-    NSURL *url = [NSURL URLWithString:urlString];
-
-    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-
-    [cell.imaView setImageWithURLRequest:request placeholderImage:[UIImage imageNamed:@"image"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
-        //        imageView.image = image;
-        [cell.imaView setImage:image];
-//        UIGraphicsBeginImageContextWithOptions(cell.imaView.bounds.size, NO, 1.0);
-//        [[UIBezierPath bezierPathWithRoundedRect:cell.imaView.bounds cornerRadius:10] addClip];
-//        [image drawInRect:cell.imaView.bounds];
-//        cell.imaView.image = UIGraphicsGetImageFromCurrentImageContext();
-//        UIGraphicsEndImageContext();
-        [cell.imaView setNeedsDisplay];
-    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
-        NSLog(@"图片加载失败:%@",error);
-    }];
-    
-    
-    
+        // 先从沙盒中取出图片
+        NSData *data = [NSData dataWithContentsOfFile:filePath];
+        if (data) {
+            //data不为空，说明沙盒中存在这个文件
+            cell.imaView.image = [UIImage imageWithData:data];
+        } else {// 反之沙盒中不存在这个文件
+            NSString *str = [NSString stringWithString:f.PicBigPath];
+            NSArray *arr = [str componentsSeparatedByString:@"h"];
+            NSString *string = [NSString stringWithString:arr[1]];
+            NSString *beginstr = [string substringToIndex:string.length-9];
+            NSString *urlString = [NSString stringWithFormat:@"h%@",beginstr];
+            
+            NSURL *url = [NSURL URLWithString:urlString];
+            
+            NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+            
+            [cell.imaView setImageWithURLRequest:request placeholderImage:[UIImage imageNamed:@"fillimage"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
+                [PhotoDic setObject:image forKey:f.FoodsChiName];
+                BOOL result = [UIImageJPEGRepresentation(image, 1)writeToFile: filePath atomically:YES]; // 保存成功会返回YES
+                result ? NSLog(@""):NSLog(@"%@未存入本地",f.FoodsChiName);
+                //可以用贝赛尔曲线绘制圆角，提高性能，但会加重cpu负担
+                [cell.imaView setImage:image];
+                [cell.imaView setNeedsDisplay];
+            } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
+                NSLog(@"图片加载失败:%@",error);
+            }];
+        }
+    }
     return cell;
 }
 
@@ -274,13 +278,14 @@ static NSString * const reuseidentifier = @"cell";
 //    return YES;
 //}
 //
-//// 点击高亮
-//- (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    DetailCollectionViewCell *cell = (DetailCollectionViewCell*)[mPicCollectionView cellForItemAtIndexPath:indexPath];
-//    cell.backgroundColor = [UIColor redColor];
-//    cell.selected = YES;
-//}
+// 点击高亮
+- (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailCollectionViewCell *cell = (DetailCollectionViewCell*)[mPicCollectionView cellForItemAtIndexPath:indexPath];
+    cell.backgroundColor = [UIColor redColor];
+    cell.selected = YES;
+    NSLog(@"%@",PhotoDic);
+}
 //
 //- (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
 //{
