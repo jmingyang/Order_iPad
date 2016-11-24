@@ -84,6 +84,9 @@ static NSString * const reuseidentifier = @"cell";
     homePage = [HomeView sharedHMView];
     UIWindow* currentWindow = [UIApplication sharedApplication].keyWindow;
     [currentWindow addSubview:homePage];
+    
+    
+    NSLog(@"缓存缓存缓存%@",PhotoDic);
 }
 
 - (void)fillFoodInfo:(NSArray *)arr typename:(NSString *)type{
@@ -191,44 +194,34 @@ static NSString * const reuseidentifier = @"cell";
 
     Food *f = FoodsArr[indexPath.row];
     [cell fillCellWithFood:f];
-    UIImage *image = PhotoDic[f.FoodsChiName];
-    if (image) {
-        //存在：说明图片已经下载成功，并缓存成功）
-        cell.imaView.image = image;
-    } else {
-        // 不存在：说明图片并未下载成功过，或者成功下载但是在images里缓存失败，需要在沙盒里寻找对于的图片
-        // 获得url对于的沙盒缓存路径
+    // 获得url对于的沙盒缓存路径
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
+    NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:f.FoodsChiName];   // 保存文件的名称
+    
+    // 先从沙盒中取出图片
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    if (data) {
+        //data不为空，说明沙盒中存在这个文件
+        cell.imaView.image = [UIImage imageWithData:data];
+    } else {// 反之沙盒中不存在这个文件
+        NSString *str = [NSString stringWithString:f.PicBigPath];
+        NSArray *arr = [str componentsSeparatedByString:@"h"];
+        NSString *string = [NSString stringWithString:arr[1]];
+        NSString *beginstr = [string substringToIndex:string.length-9];
+        NSString *urlString = [NSString stringWithFormat:@"h%@",beginstr];
         
-        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
-        NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:f.FoodsChiName];   // 保存文件的名称
-
-        // 先从沙盒中取出图片
-        NSData *data = [NSData dataWithContentsOfFile:filePath];
-        if (data) {
-            //data不为空，说明沙盒中存在这个文件
-            cell.imaView.image = [UIImage imageWithData:data];
-        } else {// 反之沙盒中不存在这个文件
-            NSString *str = [NSString stringWithString:f.PicBigPath];
-            NSArray *arr = [str componentsSeparatedByString:@"h"];
-            NSString *string = [NSString stringWithString:arr[1]];
-            NSString *beginstr = [string substringToIndex:string.length-9];
-            NSString *urlString = [NSString stringWithFormat:@"h%@",beginstr];
-            
-            NSURL *url = [NSURL URLWithString:urlString];
-            
-            NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-            
-            [cell.imaView setImageWithURLRequest:request placeholderImage:[UIImage imageNamed:@"fillimage"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
-                [PhotoDic setObject:image forKey:f.FoodsChiName];
-                BOOL result = [UIImageJPEGRepresentation(image, 1)writeToFile: filePath atomically:YES]; // 保存成功会返回YES
-                result ? NSLog(@""):NSLog(@"%@未存入本地",f.FoodsChiName);
-                //可以用贝赛尔曲线绘制圆角，提高性能，但会加重cpu负担
-                [cell.imaView setImage:image];
-                [cell.imaView setNeedsDisplay];
-            } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
-                NSLog(@"图片加载失败:%@",error);
-            }];
-        }
+        NSURL *url = [NSURL URLWithString:urlString];
+        NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+        
+        [cell.imaView setImageWithURLRequest:request placeholderImage:[UIImage imageNamed:@"fillimage"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
+            BOOL result = [UIImageJPEGRepresentation(image, 1)writeToFile: filePath atomically:YES]; // 保存成功会返回YES
+            result ? NSLog(@""):NSLog(@"%@未存入本地",f.FoodsChiName);
+            //可以用贝赛尔曲线绘制圆角，提高性能，但会加重cpu负担
+            [cell.imaView setImage:image];
+            [cell.imaView setNeedsDisplay];
+        } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
+            NSLog(@"图片加载失败:%@",error);
+        }];
     }
     return cell;
 }
