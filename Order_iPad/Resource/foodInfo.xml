@@ -1,0 +1,4350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!--以下是字段注释说明:-->
+    <!--FoodsCodeId 菜品编码-->
+    <!--FoodsEngName 菜品英文名-->
+    <!--FoodsChiName 菜品中文名-->
+    <!--FoodsStyle 菜味-->
+    <!--FoodsMode 菜品规格-->
+    <!--Price 价格-->
+    <!--HolidayPrice 假日价格-->
+    <!--DisPriceRate 打折率-->
+    <!--Main Material 主料-->
+    <!--Taste 口味-->
+    <!--Cookery 做法-->
+    <!--Remark 类别-->
+    <!--AttachCategory 隶属类别-->
+    <!--Note 备注-->
+    <!--coursecode 球场代码-->
+    <!--PicListPath 菜品介绍图片路径-->
+    <!--PicBigPath  菜品详情图片路径-->
+    <!--PicSmallPath 菜单显示菜品图片路径-->
+    <Food>
+        <FoodsCodeId>05060001</FoodsCodeId>
+        <FoodsEngName>ZSTC</FoodsEngName>
+        <FoodsChiName>中式套餐</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060001.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060001.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060001.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060002</FoodsCodeId>
+        <FoodsEngName>XSTC</FoodsEngName>
+        <FoodsChiName>西式套餐</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060002.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060002.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060002.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060004</FoodsCodeId>
+        <FoodsEngName>SJ</FoodsEngName>
+        <FoodsChiName>水饺</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060004.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060004.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060004.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060005</FoodsCodeId>
+        <FoodsEngName>ZHSMZ</FoodsEngName>
+        <FoodsChiName>总汇三明治</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060005.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060005.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060005.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060006</FoodsCodeId>
+        <FoodsEngName>PDSRZTC</FoodsEngName>
+        <FoodsChiName>皮蛋瘦肉粥套餐</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060006.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060006.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060006.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060008</FoodsCodeId>
+        <FoodsEngName>TS</FoodsEngName>
+        <FoodsChiName>土司</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>10</Price>
+        <HolidayPrice>10</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060008.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060008.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060008.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060009</FoodsCodeId>
+        <FoodsEngName>PG</FoodsEngName>
+        <FoodsChiName>培根</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>15</Price>
+        <HolidayPrice>15</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060009.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060009.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060009.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060010</FoodsCodeId>
+        <FoodsEngName>JD</FoodsEngName>
+        <FoodsChiName>煎蛋</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>10</Price>
+        <HolidayPrice>10</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060010.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060010.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060010.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060011</FoodsCodeId>
+        <FoodsEngName>RC</FoodsEngName>
+        <FoodsChiName>肉肠</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>10</Price>
+        <HolidayPrice>10</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060011.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060011.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060011.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060012</FoodsCodeId>
+        <FoodsEngName>BZ</FoodsEngName>
+        <FoodsChiName>白粥</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>15</Price>
+        <HolidayPrice>15</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060012.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060012.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060012.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060013</FoodsCodeId>
+        <FoodsEngName>TWXC</FoodsEngName>
+        <FoodsChiName>台湾香肠</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060013.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060013.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060013.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060014</FoodsCodeId>
+        <FoodsEngName>ZST</FoodsEngName>
+        <FoodsChiName>炸薯条</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>38</Price>
+        <HolidayPrice>38</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060014.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060014.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060014.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060016</FoodsCodeId>
+        <FoodsEngName>SGSJ</FoodsEngName>
+        <FoodsChiName>手工水饺</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060016.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060016.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060016.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05060017</FoodsCodeId>
+        <FoodsEngName>JQYSMZ</FoodsEngName>
+        <FoodsChiName>金枪鱼三明治</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>早餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05060017.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05060017.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05060017.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020001</FoodsCodeId>
+        <FoodsEngName>KQS</FoodsEngName>
+        <FoodsChiName>矿泉水</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>20</Price>
+        <HolidayPrice>20</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020001.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020001.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020001.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020002</FoodsCodeId>
+        <FoodsEngName>KLKL(T)</FoodsEngName>
+        <FoodsChiName>可乐可乐(听)</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>罐</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020002.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020002.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020002.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020003</FoodsCodeId>
+        <FoodsEngName>JYKL(T)</FoodsEngName>
+        <FoodsChiName>健怡可乐(听)</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>罐</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020003.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020003.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020003.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020004</FoodsCodeId>
+        <FoodsEngName>LDKL(T)</FoodsEngName>
+        <FoodsChiName>零度可乐(听)</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>罐</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020004.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020004.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020004.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020005</FoodsCodeId>
+        <FoodsEngName>XB(T)</FoodsEngName>
+        <FoodsChiName>雪碧(听)</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>罐</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020005.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020005.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020005.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020007</FoodsCodeId>
+        <FoodsEngName>SDS</FoodsEngName>
+        <FoodsChiName>苏打水</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020007.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020007.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020007.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020010</FoodsCodeId>
+        <FoodsEngName>YQS</FoodsEngName>
+        <FoodsChiName>盐汽水</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020010.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020010.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020010.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020012</FoodsCodeId>
+        <FoodsEngName>SDLWLC</FoodsEngName>
+        <FoodsChiName>三得利乌龙茶</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020012.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020012.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020012.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020013</FoodsCodeId>
+        <FoodsEngName>HN</FoodsEngName>
+        <FoodsChiName>红牛</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>罐</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020013.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020013.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020013.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020014</FoodsCodeId>
+        <FoodsEngName>WLJ</FoodsEngName>
+        <FoodsChiName>王老吉</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>罐</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020014.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020014.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020014.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020015</FoodsCodeId>
+        <FoodsEngName>BKL</FoodsEngName>
+        <FoodsChiName>宝矿力</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020015.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020015.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020015.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020016</FoodsCodeId>
+        <FoodsEngName>BKF</FoodsEngName>
+        <FoodsChiName>冰咖啡</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020016.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020016.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020016.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020017</FoodsCodeId>
+        <FoodsEngName>DPKL/XB</FoodsEngName>
+        <FoodsChiName>大瓶可乐/雪碧</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020017.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020017.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020017.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020018</FoodsCodeId>
+        <FoodsEngName>BLS(D)</FoodsEngName>
+        <FoodsChiName>巴黎水(大)</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020018.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020018.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020018.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020021</FoodsCodeId>
+        <FoodsEngName>LSYL</FoodsEngName>
+        <FoodsChiName>临时饮料</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>1</Price>
+        <HolidayPrice>1</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020023</FoodsCodeId>
+        <FoodsEngName>LRNMHC</FoodsEngName>
+        <FoodsChiName>冷热柠檬红茶</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020023.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020023.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020023.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020027</FoodsCodeId>
+        <FoodsEngName>RJMBLP</FoodsEngName>
+        <FoodsChiName>日加满玻璃瓶</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>15</Price>
+        <HolidayPrice>15</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020027.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020027.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020027.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020028</FoodsCodeId>
+        <FoodsEngName>RJMYLG</FoodsEngName>
+        <FoodsChiName>日加满易拉罐</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>罐</FoodsMode>
+        <Price>10</Price>
+        <HolidayPrice>10</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020028.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020028.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020028.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020029</FoodsCodeId>
+        <FoodsEngName>RJMLS</FoodsEngName>
+        <FoodsChiName>日加满力水</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>10</Price>
+        <HolidayPrice>10</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05020029.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05020029.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05020029.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05020022</FoodsCodeId>
+        <FoodsEngName>BLS(X)</FoodsEngName>
+        <FoodsChiName>巴黎水(小)</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>35</Price>
+        <HolidayPrice>35</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070058</FoodsCodeId>
+        <FoodsEngName>QJNRCF</FoodsEngName>
+        <FoodsChiName>青椒牛肉炒饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070059</FoodsCodeId>
+        <FoodsEngName>XZCMF</FoodsEngName>
+        <FoodsChiName>星洲炒米粉</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>55</Price>
+        <HolidayPrice>55</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070059.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070059.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070059.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070060</FoodsCodeId>
+        <FoodsEngName>SCCF</FoodsEngName>
+        <FoodsChiName>酸菜炒饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>55</Price>
+        <HolidayPrice>55</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070060.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070060.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070060.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070001</FoodsCodeId>
+        <FoodsEngName>HWNNF</FoodsEngName>
+        <FoodsChiName>和味牛腩饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070001.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070001.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070001.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070005</FoodsCodeId>
+        <FoodsEngName>PCCF</FoodsEngName>
+        <FoodsChiName>泡菜炒饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070005.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070005.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070005.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070007</FoodsCodeId>
+        <FoodsEngName>QJNRF</FoodsEngName>
+        <FoodsChiName>青椒牛肉饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070007.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070007.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070007.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070061</FoodsCodeId>
+        <FoodsEngName>QQZTF</FoodsEngName>
+        <FoodsChiName>QQ猪蹄饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070061.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070061.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070061.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070009</FoodsCodeId>
+        <FoodsEngName>YZCF</FoodsEngName>
+        <FoodsChiName>扬州炒饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070009.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070009.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070009.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070010</FoodsCodeId>
+        <FoodsEngName>KLJF</FoodsEngName>
+        <FoodsChiName>咖喱鸡饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070010.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070010.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070010.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070011</FoodsCodeId>
+        <FoodsEngName>ZBF</FoodsEngName>
+        <FoodsChiName>猪扒饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070011.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070011.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070011.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070062</FoodsCodeId>
+        <FoodsEngName>ZLYPF</FoodsEngName>
+        <FoodsChiName>糟溜鱼片饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070062.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070062.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070062.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070063</FoodsCodeId>
+        <FoodsEngName>ZSZZM</FoodsEngName>
+        <FoodsChiName>岐山臊子面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070063.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070063.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070063.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070064</FoodsCodeId>
+        <FoodsEngName>FQNZM</FoodsEngName>
+        <FoodsChiName>番茄牛腩面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070064.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070064.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070064.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070065</FoodsCodeId>
+        <FoodsEngName>CSGZXJ</FoodsEngName>
+        <FoodsChiName>茶树菇炖小鸡</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070065.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070065.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070065.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070021</FoodsCodeId>
+        <FoodsEngName>XRHDF</FoodsEngName>
+        <FoodsChiName>虾仁滑蛋饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070021.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070021.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070021.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070025</FoodsCodeId>
+        <FoodsEngName>TSLRF</FoodsEngName>
+        <FoodsChiName>台式卤肉饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070025.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070025.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070025.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070027</FoodsCodeId>
+        <FoodsEngName>XCRTC</FoodsEngName>
+        <FoodsChiName>小炒肉套餐</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070027.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070027.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070027.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070035</FoodsCodeId>
+        <FoodsEngName>MPDFF</FoodsEngName>
+        <FoodsChiName>麻婆豆腐饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070035.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070035.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070035.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070044</FoodsCodeId>
+        <FoodsEngName>HGRTC</FoodsEngName>
+        <FoodsChiName>回锅肉套餐</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>套餐类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070044.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070044.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070044.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05110020</FoodsCodeId>
+        <FoodsEngName>XHNRG</FoodsEngName>
+        <FoodsChiName>西湖牛肉羹</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>汤类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05110020.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05110020.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05110020.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05110021</FoodsCodeId>
+        <FoodsEngName>LDFQDGT</FoodsEngName>
+        <FoodsChiName>老蛋番茄冬瓜汤</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>40</Price>
+        <HolidayPrice>40</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>汤类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05110021.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05110021.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05110021.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05110002</FoodsCodeId>
+        <FoodsEngName>SLT</FoodsEngName>
+        <FoodsChiName>酸辣汤</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>碗</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>汤类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05110002.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05110002.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05110002.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05110003</FoodsCodeId>
+        <FoodsEngName>LBPGT</FoodsEngName>
+        <FoodsChiName>萝卜排骨汤</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>碗</FoodsMode>
+        <Price>68</Price>
+        <HolidayPrice>68</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>汤类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05110003.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05110003.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05110003.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05110004</FoodsCodeId>
+        <FoodsEngName>XRDGT</FoodsEngName>
+        <FoodsChiName>咸肉冬瓜汤</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>碗</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>汤类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05110004.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05110004.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05110004.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05110005</FoodsCodeId>
+        <FoodsEngName>SBT</FoodsEngName>
+        <FoodsChiName>四宝汤</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>碗</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>汤类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05110005.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05110005.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05110005.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05110018</FoodsCodeId>
+        <FoodsEngName>FNPCT</FoodsEngName>
+        <FoodsChiName>肥牛泡菜汤</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>碗</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>汤类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05110018.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05110018.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05110018.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010001</FoodsCodeId>
+        <FoodsEngName>PTKF</FoodsEngName>
+        <FoodsChiName>普通咖啡</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010001.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010001.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010001.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010002</FoodsCodeId>
+        <FoodsEngName>LS</FoodsEngName>
+        <FoodsChiName>蓝山</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>50</Price>
+        <HolidayPrice>50</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010002.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010002.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010002.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010003</FoodsCodeId>
+        <FoodsEngName>YSTN</FoodsEngName>
+        <FoodsChiName>意式特浓</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010003.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010003.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010003.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010004</FoodsCodeId>
+        <FoodsEngName>KPQN</FoodsEngName>
+        <FoodsChiName>卡普奇诺</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>50</Price>
+        <HolidayPrice>50</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010004.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010004.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010004.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010005</FoodsCodeId>
+        <FoodsEngName>NT</FoodsEngName>
+        <FoodsChiName>拿铁</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>55</Price>
+        <HolidayPrice>55</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010005.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010005.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010005.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010008</FoodsCodeId>
+        <FoodsEngName>L/RQKL</FoodsEngName>
+        <FoodsChiName>冷/热巧克力</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010008.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010008.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010008.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010009</FoodsCodeId>
+        <FoodsEngName>L/RXNN</FoodsEngName>
+        <FoodsChiName>冷/热鲜牛奶</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010009.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010009.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010009.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010010</FoodsCodeId>
+        <FoodsEngName>NC</FoodsEngName>
+        <FoodsChiName>奶茶</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010010.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010010.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010010.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010011</FoodsCodeId>
+        <FoodsEngName>HC</FoodsEngName>
+        <FoodsChiName>红茶</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010011.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010011.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010011.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010012</FoodsCodeId>
+        <FoodsEngName>LJ</FoodsEngName>
+        <FoodsChiName>龙井</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010012.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010012.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010012.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010013</FoodsCodeId>
+        <FoodsEngName>PE</FoodsEngName>
+        <FoodsChiName>普洱</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010013.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010013.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010013.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010014</FoodsCodeId>
+        <FoodsEngName>JHC</FoodsEngName>
+        <FoodsChiName>菊花茶</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010014.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010014.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010014.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05010015</FoodsCodeId>
+        <FoodsEngName>QCKF</FoodsEngName>
+        <FoodsChiName>雀巢咖啡</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>罐</FoodsMode>
+        <Price>20</Price>
+        <HolidayPrice>20</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>热饮</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05010015.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05010015.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05010015.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05130036</FoodsCodeId>
+        <FoodsEngName>ZZC1</FoodsEngName>
+        <FoodsChiName>自助餐1</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>其它</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05130038</FoodsCodeId>
+        <FoodsEngName>ZZC3</FoodsEngName>
+        <FoodsChiName>自助餐3</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>150</Price>
+        <HolidayPrice>150</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>其它</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05130039</FoodsCodeId>
+        <FoodsEngName>ZZC4</FoodsEngName>
+        <FoodsChiName>自助餐4</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>200</Price>
+        <HolidayPrice>200</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>其它</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05130037</FoodsCodeId>
+        <FoodsEngName>ZZC2</FoodsEngName>
+        <FoodsChiName>自助餐2</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>100</Price>
+        <HolidayPrice>100</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>其它</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05030003</FoodsCodeId>
+        <FoodsEngName>QD（T）</FoodsEngName>
+        <FoodsChiName>青岛（听）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>啤酒类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05030003.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05030003.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05030003.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05030006</FoodsCodeId>
+        <FoodsEngName>XL（T）</FoodsEngName>
+        <FoodsChiName>喜力（听）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>啤酒类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05030006.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05030006.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05030006.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05030007</FoodsCodeId>
+        <FoodsEngName>XL（P）</FoodsEngName>
+        <FoodsChiName>喜力（瓶）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>50</Price>
+        <HolidayPrice>50</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>啤酒类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05030007.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05030007.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05030007.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05030008</FoodsCodeId>
+        <FoodsEngName>QDCS</FoodsEngName>
+        <FoodsChiName>青岛纯生</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>30</Price>
+        <HolidayPrice>30</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>啤酒类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05030008.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05030008.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05030008.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05030010</FoodsCodeId>
+        <FoodsEngName>HP（P）</FoodsEngName>
+        <FoodsChiName>虎牌（瓶）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>35</Price>
+        <HolidayPrice>35</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>啤酒类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05030010.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05030010.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05030010.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05030011</FoodsCodeId>
+        <FoodsEngName>XLSP（XB）</FoodsEngName>
+        <FoodsChiName>喜力生啤（小杯）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>35</Price>
+        <HolidayPrice>35</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>啤酒类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05030011.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05030011.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05030011.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05030012</FoodsCodeId>
+        <FoodsEngName>XLSP（DB）</FoodsEngName>
+        <FoodsChiName>喜力生啤（大杯）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>啤酒类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05030012.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05030012.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05030012.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05030013</FoodsCodeId>
+        <FoodsEngName>XLSP（Z）</FoodsEngName>
+        <FoodsChiName>喜力生啤（扎）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>150</Price>
+        <HolidayPrice>150</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>啤酒类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05030013.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05030013.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05030013.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05030014</FoodsCodeId>
+        <FoodsEngName>SE</FoodsEngName>
+        <FoodsChiName>苏尔</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>55</Price>
+        <HolidayPrice>55</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>啤酒类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05030014.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05030014.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05030014.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070046</FoodsCodeId>
+        <FoodsEngName>ZJM</FoodsEngName>
+        <FoodsChiName>炸酱面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>50</Price>
+        <HolidayPrice>50</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070046.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070046.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070046.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070047</FoodsCodeId>
+        <FoodsEngName>ZZ</FoodsEngName>
+        <FoodsChiName>馄炖</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>55</Price>
+        <HolidayPrice>55</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070047.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070047.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070047.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070049</FoodsCodeId>
+        <FoodsEngName>PGBDMM</FoodsEngName>
+        <FoodsChiName>排骨扁豆焖面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070049.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070049.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070049.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05070051</FoodsCodeId>
+        <FoodsEngName>GCNH</FoodsEngName>
+        <FoodsChiName>干炒牛河</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05070051.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05070051.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05070051.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05080001</FoodsCodeId>
+        <FoodsEngName>TWNRM</FoodsEngName>
+        <FoodsChiName>台湾牛肉面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>80</Price>
+        <HolidayPrice>80</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05080001.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05080001.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05080001.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05080003</FoodsCodeId>
+        <FoodsEngName>ZCRSM</FoodsEngName>
+        <FoodsChiName>榨菜肉丝面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>50</Price>
+        <HolidayPrice>50</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05080003.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05080003.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05080003.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05080004</FoodsCodeId>
+        <FoodsEngName>HSNRXLM</FoodsEngName>
+        <FoodsChiName>韩式牛肉辛拉面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05080004.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05080004.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05080004.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05080008</FoodsCodeId>
+        <FoodsEngName>TSM</FoodsEngName>
+        <FoodsChiName>特色面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05080008.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05080008.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05080008.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05080009</FoodsCodeId>
+        <FoodsEngName>HSCMM</FoodsEngName>
+        <FoodsChiName>韩式炒码面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05080009.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05080009.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05080009.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05080011</FoodsCodeId>
+        <FoodsEngName>TSCM</FoodsEngName>
+        <FoodsChiName>台式炒面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>55</Price>
+        <HolidayPrice>55</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05080011.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05080011.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05080011.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05080012</FoodsCodeId>
+        <FoodsEngName>DLM</FoodsEngName>
+        <FoodsChiName>打卤面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>55</Price>
+        <HolidayPrice>55</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05080012.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05080012.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05080012.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05080014</FoodsCodeId>
+        <FoodsEngName>FQJDM</FoodsEngName>
+        <FoodsChiName>番茄鸡蛋面</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>50</Price>
+        <HolidayPrice>50</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>面条</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05080014.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05080014.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05080014.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05090009</FoodsCodeId>
+        <FoodsEngName>SBCQ</FoodsEngName>
+        <FoodsChiName>松柏常青</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>28</Price>
+        <HolidayPrice>28</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>冷菜类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05090009.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05090009.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05090009.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05090014</FoodsCodeId>
+        <FoodsEngName>HGPC</FoodsEngName>
+        <FoodsChiName>韩国泡菜</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>20</Price>
+        <HolidayPrice>20</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>冷菜类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05090014.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05090014.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05090014.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05090020</FoodsCodeId>
+        <FoodsEngName>SSJDG</FoodsEngName>
+        <FoodsChiName>三丝鸡蛋干</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>28</Price>
+        <HolidayPrice>28</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>冷菜类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05090020.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05090020.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05090020.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05050014</FoodsCodeId>
+        <FoodsEngName>HF-HY</FoodsEngName>
+        <FoodsChiName>黑方-会员</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>680</Price>
+        <HolidayPrice>680</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>酒精饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05050003</FoodsCodeId>
+        <FoodsEngName>HPTJ P</FoodsEngName>
+        <FoodsChiName>红葡萄酒 瓶</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>320</Price>
+        <HolidayPrice>320</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>酒精饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05050003.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05050003.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05050003.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05050005</FoodsCodeId>
+        <FoodsEngName>BPTJ P</FoodsEngName>
+        <FoodsChiName>白葡萄酒 瓶</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>320</Price>
+        <HolidayPrice>320</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>酒精饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05050005.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05050005.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05050005.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05050009</FoodsCodeId>
+        <FoodsEngName>Dewar's 15N</FoodsEngName>
+        <FoodsChiName>Dewar's 15年</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>酒精饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05050009.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05050009.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05050009.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05050012</FoodsCodeId>
+        <FoodsEngName>Dewar's 12N</FoodsEngName>
+        <FoodsChiName>Dewar's 12年</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>50</Price>
+        <HolidayPrice>50</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>酒精饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05050012.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05050012.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05050012.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05050013</FoodsCodeId>
+        <FoodsEngName>Dewar's 8N</FoodsEngName>
+        <FoodsChiName>Dewar's 8年</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>酒精饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05050013.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05050013.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05050013.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05050015</FoodsCodeId>
+        <FoodsEngName>HF-FHY</FoodsEngName>
+        <FoodsChiName>黑方-非会员</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>880</Price>
+        <HolidayPrice>880</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>酒精饮料</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040005</FoodsCodeId>
+        <FoodsEngName>XZCZ</FoodsEngName>
+        <FoodsChiName>鲜榨橙汁</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040005.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040005.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040005.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040006</FoodsCodeId>
+        <FoodsEngName>XZPGZ</FoodsEngName>
+        <FoodsChiName>鲜榨苹果汁</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040006.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040006.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040006.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040007</FoodsCodeId>
+        <FoodsEngName>XZHLBZ</FoodsEngName>
+        <FoodsChiName>鲜榨胡萝卜汁</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>40</Price>
+        <HolidayPrice>40</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040007.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040007.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040007.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040008</FoodsCodeId>
+        <FoodsEngName>XZHGZ</FoodsEngName>
+        <FoodsChiName>鲜榨黄瓜汁</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>40</Price>
+        <HolidayPrice>40</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040008.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040008.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040008.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040010</FoodsCodeId>
+        <FoodsEngName>XZXGZ</FoodsEngName>
+        <FoodsChiName>鲜榨西瓜汁</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>40</Price>
+        <HolidayPrice>40</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040010.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040010.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040010.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040011</FoodsCodeId>
+        <FoodsEngName>XZFQZ</FoodsEngName>
+        <FoodsChiName>鲜榨番茄汁</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>40</Price>
+        <HolidayPrice>40</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040011.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040011.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040011.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040012</FoodsCodeId>
+        <FoodsEngName>XZNMZ</FoodsEngName>
+        <FoodsChiName>鲜榨柠檬汁</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>40</Price>
+        <HolidayPrice>40</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040012.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040012.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040012.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040013</FoodsCodeId>
+        <FoodsEngName>HHGSZ（B）</FoodsEngName>
+        <FoodsChiName>混合果蔬汁（杯）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040013.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040013.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040013.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040014</FoodsCodeId>
+        <FoodsEngName>ZHB（D）</FoodsEngName>
+        <FoodsChiName>综合冰（大）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>78</Price>
+        <HolidayPrice>78</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040014.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040014.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040014.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040015</FoodsCodeId>
+        <FoodsEngName>ZHB（X）</FoodsEngName>
+        <FoodsChiName>综合冰（小）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>58</Price>
+        <HolidayPrice>58</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040015.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040015.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040015.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040016</FoodsCodeId>
+        <FoodsEngName>GZ（Z）</FoodsEngName>
+        <FoodsChiName>果汁（扎）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>125</Price>
+        <HolidayPrice>125</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040016.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040016.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040016.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040017</FoodsCodeId>
+        <FoodsEngName>SGPP(D)</FoodsEngName>
+        <FoodsChiName>水果拼盘(大)</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>78</Price>
+        <HolidayPrice>78</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040017.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040017.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040017.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040018</FoodsCodeId>
+        <FoodsEngName>SGPP(X)</FoodsEngName>
+        <FoodsChiName>水果拼盘(小)</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>58</Price>
+        <HolidayPrice>58</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040018.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040018.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040018.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040019</FoodsCodeId>
+        <FoodsEngName>HSBS</FoodsEngName>
+        <FoodsChiName>花生冰沙</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>50</Price>
+        <HolidayPrice>50</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040019.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040019.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040019.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040020</FoodsCodeId>
+        <FoodsEngName>MGBS</FoodsEngName>
+        <FoodsChiName>芒果冰沙</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>55</Price>
+        <HolidayPrice>55</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040020.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040020.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040020.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040021</FoodsCodeId>
+        <FoodsEngName>HHGSZ（Z）</FoodsEngName>
+        <FoodsChiName>混合果蔬汁（扎）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>110</Price>
+        <HolidayPrice>110</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040021.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040021.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040021.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040024</FoodsCodeId>
+        <FoodsEngName>FLB（X）</FoodsEngName>
+        <FoodsChiName>凤梨冰（小）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040024.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040024.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040024.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040025</FoodsCodeId>
+        <FoodsEngName>FLB（D）</FoodsEngName>
+        <FoodsChiName>凤梨冰（大）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>68</Price>
+        <HolidayPrice>68</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040025.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040025.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040025.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040026</FoodsCodeId>
+        <FoodsEngName>HDB（X）</FoodsEngName>
+        <FoodsChiName>红豆冰（小）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>38</Price>
+        <HolidayPrice>38</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040026.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040026.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040026.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040027</FoodsCodeId>
+        <FoodsEngName>HDB（D）</FoodsEngName>
+        <FoodsChiName>红豆冰（大）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>58</Price>
+        <HolidayPrice>58</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040027.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040027.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040027.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05040032</FoodsCodeId>
+        <FoodsEngName>YZS</FoodsEngName>
+        <FoodsChiName>椰汁水</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>瓶</FoodsMode>
+        <Price>18</Price>
+        <HolidayPrice>18</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>果汁</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05040032.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05040032.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05040032.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05120026</FoodsCodeId>
+        <FoodsEngName>ZHZW</FoodsEngName>
+        <FoodsChiName>炸花枝丸</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>个</FoodsMode>
+        <Price>38</Price>
+        <HolidayPrice>38</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>点心类</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05120026.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05120026.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05120026.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100130</FoodsCodeId>
+        <FoodsEngName>SMHNLR</FoodsEngName>
+        <FoodsChiName>蒜苗湖南腊肉</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode>N</CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100130.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100130.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100130.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100005</FoodsCodeId>
+        <FoodsEngName>SHHSR</FoodsEngName>
+        <FoodsChiName>上海红烧肉</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>68</Price>
+        <HolidayPrice>68</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100005.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100005.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100005.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100018</FoodsCodeId>
+        <FoodsEngName>CSXCR</FoodsEngName>
+        <FoodsChiName>长沙小炒肉</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100018.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100018.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100018.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100117</FoodsCodeId>
+        <FoodsEngName>BZJL</FoodsEngName>
+        <FoodsChiName>白灼芥兰</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100117.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100117.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100117.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100021</FoodsCodeId>
+        <FoodsEngName>KXC</FoodsEngName>
+        <FoodsChiName>空心菜</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100021.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100021.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100021.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100023</FoodsCodeId>
+        <FoodsEngName>NJNNB</FoodsEngName>
+        <FoodsChiName>牛筋牛腩煲</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100023.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100023.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100023.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100025</FoodsCodeId>
+        <FoodsEngName>CFD</FoodsEngName>
+        <FoodsChiName>菜脯蛋</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>50</Price>
+        <HolidayPrice>50</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100025.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100025.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100025.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100026</FoodsCodeId>
+        <FoodsEngName>GBNRS</FoodsEngName>
+        <FoodsChiName>干煸牛肉丝</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100026.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100026.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100026.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100027</FoodsCodeId>
+        <FoodsEngName>MPDF</FoodsEngName>
+        <FoodsChiName>麻婆豆腐</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100027.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100027.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100027.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100028</FoodsCodeId>
+        <FoodsEngName>TWDFB</FoodsEngName>
+        <FoodsChiName>台湾豆腐煲</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100028.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100028.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100028.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100038</FoodsCodeId>
+        <FoodsEngName>PCNL</FoodsEngName>
+        <FoodsChiName>泡菜牛柳</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>58</Price>
+        <HolidayPrice>58</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100038.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100038.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100038.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100120</FoodsCodeId>
+        <FoodsEngName>SCNZ</FoodsEngName>
+        <FoodsChiName>酸菜牛腩</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>75</Price>
+        <HolidayPrice>75</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100120.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100120.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100120.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100053</FoodsCodeId>
+        <FoodsEngName>TSSBJ</FoodsEngName>
+        <FoodsChiName>台式三杯鸡</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100053.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100053.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100053.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100054</FoodsCodeId>
+        <FoodsEngName>QCSS</FoodsEngName>
+        <FoodsChiName>清炒时蔬</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100054.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100054.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100054.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100057</FoodsCodeId>
+        <FoodsEngName>GGHC</FoodsEngName>
+        <FoodsChiName>干锅花菜</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100057.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100057.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100057.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100074</FoodsCodeId>
+        <FoodsEngName>CXJMJ</FoodsEngName>
+        <FoodsChiName>葱香椒麻鸡</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>58</Price>
+        <HolidayPrice>58</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100074.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100074.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100074.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100086</FoodsCodeId>
+        <FoodsEngName>SSXHY</FoodsEngName>
+        <FoodsChiName>蒜烧小黄鱼</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100086.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100086.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100086.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100087</FoodsCodeId>
+        <FoodsEngName>STDP</FoodsEngName>
+        <FoodsChiName>酸汤豆皮</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>55</Price>
+        <HolidayPrice>55</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100087.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100087.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100087.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100104</FoodsCodeId>
+        <FoodsEngName>TBSRX</FoodsEngName>
+        <FoodsChiName>铁板蒜蓉虾</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>75</Price>
+        <HolidayPrice>75</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100104.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100104.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100104.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100105</FoodsCodeId>
+        <FoodsEngName>HJNL</FoodsEngName>
+        <FoodsChiName>黑椒牛柳</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>58</Price>
+        <HolidayPrice>58</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100105.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100105.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100105.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100106</FoodsCodeId>
+        <FoodsEngName>HJDGRS</FoodsEngName>
+        <FoodsChiName>红椒豆干肉丝</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>杯</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100106.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100106.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100106.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100111</FoodsCodeId>
+        <FoodsEngName>DY_GJHJN_</FoodsEngName>
+        <FoodsChiName>带鱼(干煎或酒酿)</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100111.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100111.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100111.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100112</FoodsCodeId>
+        <FoodsEngName>SCMDMYZ</FoodsEngName>
+        <FoodsChiName>酸菜毛豆目鱼仔</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100112.jpg
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100112.jpg
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100112.jpg
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100121</FoodsCodeId>
+        <FoodsEngName>MF</FoodsEngName>
+        <FoodsChiName>米饭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>碗</FoodsMode>
+        <Price>5</Price>
+        <HolidayPrice>5</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100134</FoodsCodeId>
+        <FoodsEngName>STYL</FoodsEngName>
+        <FoodsChiName>酸汤鱼柳</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>75</Price>
+        <HolidayPrice>75</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100134.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100134.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100134.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100135</FoodsCodeId>
+        <FoodsEngName>XOJBZYC</FoodsEngName>
+        <FoodsChiName>XO酱爆鱿鱼脆</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>70</Price>
+        <HolidayPrice>70</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100135.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100135.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100135.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100136</FoodsCodeId>
+        <FoodsEngName>SRZXZ</FoodsEngName>
+        <FoodsChiName>蒜蓉蒸鲜鱿</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>75</Price>
+        <HolidayPrice>75</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100136.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100136.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100136.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100137</FoodsCodeId>
+        <FoodsEngName>BZSC</FoodsEngName>
+        <FoodsChiName>白灼双脆</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>68</Price>
+        <HolidayPrice>68</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100137.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100137.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100137.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100138</FoodsCodeId>
+        <FoodsEngName>XHPT</FoodsEngName>
+        <FoodsChiName>雪花排条</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>58</Price>
+        <HolidayPrice>58</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100138.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100138.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100138.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100139</FoodsCodeId>
+        <FoodsEngName>BLGBKT</FoodsEngName>
+        <FoodsChiName>百灵菇爆口条</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100139.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100139.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100139.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100140</FoodsCodeId>
+        <FoodsEngName>CPCXY</FoodsEngName>
+        <FoodsChiName>脆皮茶香鸭</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100140.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100140.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100140.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100141</FoodsCodeId>
+        <FoodsEngName>TDYZL</FoodsEngName>
+        <FoodsChiName>甜豆鸭仔粒</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100141.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100141.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100141.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100142</FoodsCodeId>
+        <FoodsEngName>DHNL</FoodsEngName>
+        <FoodsChiName>豆花牛柳</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>65</Price>
+        <HolidayPrice>65</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100142.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100142.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100142.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100143</FoodsCodeId>
+        <FoodsEngName>SLTPR</FoodsEngName>
+        <FoodsChiName>三林塘皮肉</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>68</Price>
+        <HolidayPrice>68</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100143.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100143.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100143.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100144</FoodsCodeId>
+        <FoodsEngName>WGCWG</FoodsEngName>
+        <FoodsChiName>五更肠旺锅</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>68</Price>
+        <HolidayPrice>68</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100144.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100144.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100144.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100145</FoodsCodeId>
+        <FoodsEngName>WNGB</FoodsEngName>
+        <FoodsChiName>皖南锅巴</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>60</Price>
+        <HolidayPrice>60</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100145.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100145.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100145.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100146</FoodsCodeId>
+        <FoodsEngName>JZTGSY</FoodsEngName>
+        <FoodsChiName>鸡汁铁棍山药</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>48</Price>
+        <HolidayPrice>48</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100146.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100146.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100146.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05100147</FoodsCodeId>
+        <FoodsEngName>KYJCDP</FoodsEngName>
+        <FoodsChiName>开洋韭菜豆皮</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode>份</FoodsMode>
+        <Price>45</Price>
+        <HolidayPrice>45</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>炒菜</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>
+            http://202.200.112.149:8008/PiclistImage/05100147.JPG
+        </PicListPath>
+        <PicBigPath>
+            http://202.200.112.149:8008/PicBigImage/05100147.JPG
+        </PicBigPath>
+        <PicSmallPath>
+            http://202.200.112.149:8008/PicSmallImage/05100147.JPG
+        </PicSmallPath>
+    </Food>
+    <Food>
+        <FoodsCodeId>05150023</FoodsCodeId>
+        <FoodsEngName>ZZC（BM）</FoodsEngName>
+        <FoodsChiName>自助餐（宝马）</FoodsChiName>
+        <FoodsStyle> </FoodsStyle>
+        <FoodsMode> </FoodsMode>
+        <Price>168</Price>
+        <HolidayPrice>168</HolidayPrice>
+        <DisPriceRate>100</DisPriceRate>
+        <MainMaterial> </MainMaterial>
+        <Taste> </Taste>
+        <Cookery> </Cookery>
+        <Remark> </Remark>
+        <AttachCategory>宝马赛事专用</AttachCategory>
+        <Note> </Note>
+        <CourseCode> </CourseCode>
+        <PicListPath>http://202.200.112.149:8008/PiclistImage/</PicListPath>
+        <PicBigPath>http://202.200.112.149:8008/PicBigImage/</PicBigPath>
+        <PicSmallPath>http://202.200.112.149:8008/PicSmallImage/</PicSmallPath>
+    </Food>
+</root>
