@@ -52,6 +52,41 @@ static NSString * const reuseidentifier = @"cell";
     
     NSLog(@"高：%f；宽：%f",self.view.frame.size.height,self.view.frame.size.width);
     
+    //我的账单按钮
+    UIButton *orderBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [orderBtn setBackgroundImage:[UIImage imageNamed: @"my_order.png"] forState:UIControlStateNormal];
+    orderBtn.frame = CGRectMake(1000, 935, 188, 62);
+    //    [orderBtn addTarget:self action:@selector(showOrder) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:orderBtn];
+    
+    //设置按钮
+    UIButton *settingBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [settingBtn setBackgroundImage:[UIImage imageNamed:@"setting.png"] forState:UIControlStateNormal];
+//    settingBtn.frame = CGRectMake(150, 935, 62, 62);
+    settingBtn.frame = CGRectMake(0, 0, 62, 62);
+    //    [settingBtn addTarget:self action:@selector(showSetting) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:settingBtn];
+    UIBarButtonItem *ButtonItem0 = [[UIBarButtonItem alloc] initWithCustomView:settingBtn];
+//    self.navigationItem.rightBarButtonItem = ButtonItem0;
+    
+    //主页按钮
+    UIButton *homeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [homeBtn setBackgroundImage:[UIImage imageNamed:@"home.png"] forState:UIControlStateNormal];
+    homeBtn.frame = CGRectMake(0, 0, 62, 62);
+    [homeBtn addTarget:self action:@selector(home) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *ButtonItem = [[UIBarButtonItem alloc] initWithCustomView:homeBtn];
+//    self.navigationItem.rightBarButtonItem = ButtonItem;
+    //    [self.view addSubview:homeBtn];
+    
+    self.navigationItem.rightBarButtonItems = @[ButtonItem0,ButtonItem];
+    
+
+    
+    homePage = [HomeView sharedHMView];
+    UIWindow* currentWindow = [UIApplication sharedApplication].keyWindow;
+    [currentWindow addSubview:homePage];
+    
+    
 //    UIImageView *content_background = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 1366, 1024)];
 //    [content_background setImage:[UIImage imageNamed:@"Background.jpg"]];
 //    [self.view addSubview:content_background];
@@ -59,31 +94,7 @@ static NSString * const reuseidentifier = @"cell";
 
     [self initCollectionView];
     
-    //我的账单按钮
-    UIButton *orderBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [orderBtn setBackgroundImage:[UIImage imageNamed: @"my_order.png"] forState:UIControlStateNormal];
-    orderBtn.frame = CGRectMake(1000, 935, 188, 62);
-//    [orderBtn addTarget:self action:@selector(showOrder) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:orderBtn];
     
-    //设置按钮
-    UIButton *settingBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [settingBtn setBackgroundImage:[UIImage imageNamed:@"setting.png"] forState:UIControlStateNormal];
-    settingBtn.frame = CGRectMake(150, 935, 62, 62);
-//    [settingBtn addTarget:self action:@selector(showSetting) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:settingBtn];
-    
-    //主页按钮
-    UIButton *homeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [homeBtn setBackgroundImage:[UIImage imageNamed:@"home.png"] forState:UIControlStateNormal];
-    
-    homeBtn.frame = CGRectMake(20, 935, 62, 62);
-    [homeBtn addTarget:self action:@selector(home) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:homeBtn];
-
-    homePage = [HomeView sharedHMView];
-    UIWindow* currentWindow = [UIApplication sharedApplication].keyWindow;
-    [currentWindow addSubview:homePage];
     
     
     NSLog(@"缓存缓存缓存%@",PhotoDic);
@@ -106,9 +117,6 @@ static NSString * const reuseidentifier = @"cell";
     
     //先实例化一个层
     UICollectionViewFlowLayout *layout=[[UICollectionViewFlowLayout alloc] init];
-//    layout.itemSize = CGSizeMake(100,100);
-//    layout.minimumInteritemSpacing = 1;//cell间距
-//    layout.minimumLineSpacing = 1; //上下的间距 可以设置0看下效果 行间距
     layout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0);
     [layout setScrollDirection:UICollectionViewScrollDirectionVertical];
     
@@ -160,14 +168,29 @@ static NSString * const reuseidentifier = @"cell";
 
 }
 
-- (void)splitViewController:(UISplitViewController *)svc
-          popoverController:(UIPopoverController *)pc
-  willPresentViewController:(UIViewController *)aViewController
+
+- (void)splitViewController:(UISplitViewController *)svc willChangeToDisplayMode:(UISplitViewControllerDisplayMode)displayMode
 {
-    
-    if (UIInterfaceOrientationIsLandscape(self.interfaceOrientation)) {
-        NSLog(@"ERR_POPOVER_IN_LANDSCAPE");
-    }
+//    NSLog(@"asdfghjkl");
+//    NSLog(@"%ld",(long)displayMode);
+//    if (displayMode==2) {
+//        CGRect tmpFrame = CGRectMake(1366*0.065, 0, 1366, 1024-64);
+//        mPicCollectionView.frame = tmpFrame;
+//        
+//        [UIView beginAnimations:@"imageViewSmall" context:nil];
+//        [UIView setAnimationDuration:0.5];
+//        CGAffineTransform newTransform =  CGAffineTransformScale(mPicCollectionView.transform, 0.87, 0.87);
+//        [mPicCollectionView setTransform:newTransform];
+////        self.view.center = CGPointMake(670, 100);
+//        [UIView commitAnimations];
+//
+//    }else{
+//        CGRect tmpFrame = CGRectMake(1366*0.065, 64, self.view.frame.size.width, self.view.frame.size.height-164);
+//        mPicCollectionView.frame = tmpFrame;
+//        mPicCollectionView.transform = CGAffineTransformIdentity;
+//    
+//    }
+
 }
 
 #pragma mark ---- UICollectionViewDataSource
@@ -249,7 +272,7 @@ static NSString * const reuseidentifier = @"cell";
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
 {
-    return UIEdgeInsetsMake(20, 20, 20, 20);
+    return UIEdgeInsetsMake(20, 30, 20, 30);
 }
 
 
@@ -272,13 +295,13 @@ static NSString * const reuseidentifier = @"cell";
 //}
 //
 // 点击高亮
-- (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    DetailCollectionViewCell *cell = (DetailCollectionViewCell*)[mPicCollectionView cellForItemAtIndexPath:indexPath];
-    cell.backgroundColor = [UIColor redColor];
-    cell.selected = YES;
-    NSLog(@"%@",PhotoDic);
-}
+//- (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    DetailCollectionViewCell *cell = (DetailCollectionViewCell*)[mPicCollectionView cellForItemAtIndexPath:indexPath];
+//    cell.backgroundColor = [UIColor redColor];
+//    cell.selected = YES;
+//    NSLog(@"%@",PhotoDic);
+//}
 //
 //- (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
 //{
