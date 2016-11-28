@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
-    <entity name="Entity" syncable="YES">
+    <entity name="Food" representedClassName="Food" syncable="YES">
         <attribute name="attachCategory" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="cookery" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="coursecode" optional="YES" attributeType="String" syncable="YES"/>
@@ -21,6 +21,6 @@
         <attribute name="taste" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Entity" positionX="-63" positionY="-18" width="128" height="313"/>
+        <element name="Food" positionX="-63" positionY="-18" width="128" height="315"/>
     </elements>
 </model>

@@ -17,7 +17,7 @@
 @property (nonatomic,strong)UIBarButtonItem *splitViewBarButtonItem;
 //@property (nonatomic,strong) UIPopoverController *masterPopover;
 //@property (nonatomic,strong)UIPopoverController *iMasterPopOver;
-
+@property (nonatomic, weak) AppDelegate* appDelegate;
 @property (nonatomic,retain) UICollectionView *mPicCollectionView;
 
 - (void)setSplitViewBarButtonItem:(UIBarButtonItem *)barButtonItem;
@@ -56,7 +56,7 @@ static NSString * const reuseidentifier = @"cell";
     UIButton *orderBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [orderBtn setBackgroundImage:[UIImage imageNamed: @"my_order.png"] forState:UIControlStateNormal];
     orderBtn.frame = CGRectMake(1000, 935, 188, 62);
-    //    [orderBtn addTarget:self action:@selector(showOrder) forControlEvents:UIControlEventTouchUpInside];
+    [orderBtn addTarget:self action:@selector(showOrder) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:orderBtn];
     
     //设置按钮
@@ -87,29 +87,33 @@ static NSString * const reuseidentifier = @"cell";
     [currentWindow addSubview:homePage];
     
     
-//    UIImageView *content_background = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 1366, 1024)];
-//    [content_background setImage:[UIImage imageNamed:@"Background.jpg"]];
-//    [self.view addSubview:content_background];
-    self.view.backgroundColor = [UIColor blackColor];
+    UIImageView *content_background = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 1366, 1024)];
+    [content_background setImage:[UIImage imageNamed:@"Background.jpg"]];
+    [self.view insertSubview:content_background atIndex:0];
 
     [self initCollectionView];
     
-    
-    
-    
     NSLog(@"缓存缓存缓存%@",PhotoDic);
-}
-
-- (void)fillFoodInfo:(NSArray *)arr typename:(NSString *)type{
     
-    self.navigationItem.title = type;
-    self.FoodsArr = [NSMutableArray arrayWithArray:arr];
-
-
-}
-
-- (void)home {
-    [homePage closeDoor];
+    
+    self.appDelegate = [UIApplication sharedApplication].delegate;
+    // 创建抓取数据的请求对象
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
+    // 设置要抓取哪种类型的实体
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Food"
+                                              inManagedObjectContext:self.appDelegate.managedObjectContext];
+    // 设置抓取实体
+    request.entity = entity;
+    // 设置抓取条件
+//    Food *f = [[Food alloc]init];
+//    request.predicate = [NSPredicate predicateWithFormat:@"Food=%@",
+//                         f];
+    NSError *error = nil;
+    
+    // 执行抓取数据的请求，返回符合条件的数据
+    NSArray *foodArray = [[self.appDelegate.managedObjectContext
+                   executeFetchRequest:request error:&error] mutableCopy];
+    NSLog(@"%@",foodArray[101]);
 }
 
 - ( void )initCollectionView
@@ -132,6 +136,41 @@ static NSString * const reuseidentifier = @"cell";
     [mPicCollectionView registerClass:[DetailCollectionViewCell class] forCellWithReuseIdentifier:reuseidentifier];
     [self.view addSubview :mPicCollectionView];
 }
+
+- (void)fillFoodInfo:(NSArray *)arr typename:(NSString *)type{
+    
+    self.navigationItem.title = type;
+    self.FoodsArr = [NSMutableArray arrayWithArray:arr];
+
+
+}
+
+- (void)home {
+    [homePage closeDoor];
+}
+
+- (void)showOrder {
+    if (!orderView) {
+        orderView = [[OrderView alloc] init];
+        orderView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+        [self.view addSubview:orderView];
+    }
+    
+//    [orderView reloadOrderData];
+    orderView.alpha = 0;
+    orderView.transform = CGAffineTransformMakeScale(0.1, 0.1);
+    
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.20];
+    [UIView setAnimationDelegate:self];
+//    [UIView setAnimationDidStopSelector:@selector(bounce1AnimationStopped)];
+    orderView.alpha = 1.0;
+    orderView.transform = CGAffineTransformMakeScale(1.0, 1.0);
+    [UIView commitAnimations];
+
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -219,7 +258,7 @@ static NSString * const reuseidentifier = @"cell";
     [cell fillCellWithFood:f];
     // 获得url对于的沙盒缓存路径
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
-    NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:f.FoodsChiName];   // 保存文件的名称
+    NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:f.foodsChiName];   // 保存文件的名称
     
     // 先从沙盒中取出图片
     NSData *data = [NSData dataWithContentsOfFile:filePath];
@@ -227,7 +266,7 @@ static NSString * const reuseidentifier = @"cell";
         //data不为空，说明沙盒中存在这个文件
         cell.imaView.image = [UIImage imageWithData:data];
     } else {// 反之沙盒中不存在这个文件
-        NSString *str = [NSString stringWithString:f.PicBigPath];
+        NSString *str = [NSString stringWithString:f.picBigPath];
         NSArray *arr = [str componentsSeparatedByString:@"h"];
         NSString *string = [NSString stringWithString:arr[1]];
         NSString *beginstr = [string substringToIndex:string.length-9];
@@ -238,7 +277,7 @@ static NSString * const reuseidentifier = @"cell";
         
         [cell.imaView setImageWithURLRequest:request placeholderImage:[UIImage imageNamed:@"fillimage"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
             BOOL result = [UIImageJPEGRepresentation(image, 1)writeToFile: filePath atomically:YES]; // 保存成功会返回YES
-            result ? NSLog(@""):NSLog(@"%@未存入本地",f.FoodsChiName);
+            result ? NSLog(@""):NSLog(@"%@未存入本地",f.foodsChiName);
             //可以用贝赛尔曲线绘制圆角，提高性能，但会加重cpu负担
             [cell.imaView setImage:image];
             [cell.imaView setNeedsDisplay];

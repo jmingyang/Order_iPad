@@ -75,7 +75,7 @@
         UIButton *decreaseBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         decreaseBtn.frame = CGRectMake(5, 350, 68, 30);
         [decreaseBtn setBackgroundImage:[UIImage imageNamed:@"decrease_btn.png" ] forState:UIControlStateNormal];
-//        [decreaseBtn addTarget:self action:@selector(decreaseFood) forControlEvents:UIControlEventTouchUpInside];
+        [decreaseBtn addTarget:self action:@selector(decreaseFood) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:decreaseBtn];
         
         UIButton *increaseBtn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -109,13 +109,13 @@
 }
 
 -(void)fillCellWithFood:(Food *)f{
-    foodName.text = [NSString stringWithFormat:@"%@\n%@",f.FoodsChiName,f.FoodsEngName];
-    if ([f.FoodsEngName length] == 0) {
+    foodName.text = [NSString stringWithFormat:@"%@\n%@",f.foodsChiName,f.foodsEngName];
+    if ([f.foodsEngName length] == 0) {
         foodName.font = [UIFont systemFontOfSize:24];
 //        [foodName setContentInset:UIEdgeInsetsMake(0, 3, 0, 0)];
     }
     
-    foodPrice.text = [NSString stringWithFormat:@"%d/%@",[f.Price intValue],f.FoodsMode];
+    foodPrice.text = [NSString stringWithFormat:@"%d/%@",[f.price intValue],f.foodsMode];
 
 }
 

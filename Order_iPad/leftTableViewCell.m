@@ -25,7 +25,7 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.backgroundColor = [UIColor blackColor];
+        self.backgroundColor = [UIColor clearColor];
         
         lab = [[UILabel alloc]initWithFrame:CGRectMake(10, 18, self.frame.size.width, 21)];
         lab.font = [UIFont boldSystemFontOfSize:24];

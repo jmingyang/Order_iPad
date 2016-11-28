@@ -8,9 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B51F541A1DE532C400AFEFDE /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B51F54191DE532C400AFEFDE /* HomeView.m */; };
+		B59991201DEC0F5B00EB581A /* OrderCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B599911F1DEC0F5B00EB581A /* OrderCenter.m */; };
+		B59991231DEC0F7F00EB581A /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B59991221DEC0F7F00EB581A /* OrderTableViewCell.m */; };
+		B59991261DEC0FAF00EB581A /* OrderNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = B59991251DEC0FAF00EB581A /* OrderNoteView.m */; };
+		B59991291DEC0FCB00EB581A /* OrderOperateView.m in Sources */ = {isa = PBXBuildFile; fileRef = B59991281DEC0FCB00EB581A /* OrderOperateView.m */; };
+		B599912C1DEC0FF100EB581A /* OrderCommitOrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B599912B1DEC0FF100EB581A /* OrderCommitOrderView.m */; };
+		B599912F1DEC101200EB581A /* OrderLinshiView.m in Sources */ = {isa = PBXBuildFile; fileRef = B599912E1DEC101200EB581A /* OrderLinshiView.m */; };
+		B59991331DEC1D6000EB581A /* OrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B59991321DEC1D6000EB581A /* OrderView.m */; };
+		B599913C1DEC2ECF00EB581A /* Order_iPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B599913A1DEC2ECF00EB581A /* Order_iPad.xcdatamodeld */; };
+		B59991411DEC301700EB581A /* Food+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B599913E1DEC301700EB581A /* Food+CoreDataProperties.m */; };
+		B59991421DEC301700EB581A /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = B59991401DEC301700EB581A /* Food.m */; };
+		B59991441DEC339700EB581A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B59991431DEC339700EB581A /* libsqlite3.tbd */; };
 		B5ED8F571DE4309000EF5A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F561DE4309000EF5A42 /* main.m */; };
 		B5ED8F5A1DE4309000EF5A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F591DE4309000EF5A42 /* AppDelegate.m */; };
-		B5ED8F631DE4309000EF5A42 /* Order_iPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F611DE4309000EF5A42 /* Order_iPad.xcdatamodeld */; };
 		B5ED8F651DE4309000EF5A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ED8F641DE4309000EF5A42 /* Assets.xcassets */; };
 		B5ED8F681DE4309000EF5A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5ED8F661DE4309000EF5A42 /* LaunchScreen.storyboard */; };
 		B5ED8F731DE4309100EF5A42 /* Order_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8F721DE4309100EF5A42 /* Order_iPadTests.m */; };
@@ -42,14 +52,12 @@
 		B5ED8FF01DE431DD00EF5A42 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5ED8FC71DE431DD00EF5A42 /* LICENSE.txt */; };
 		B5ED8FF21DE431DD00EF5A42 /* foodInfo.xml in Resources */ = {isa = PBXBuildFile; fileRef = B5ED8FCB1DE431DD00EF5A42 /* foodInfo.xml */; };
 		B5ED8FF31DE431DD00EF5A42 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8FCF1DE431DD00EF5A42 /* AFAppDotNetAPIClient.m */; };
-		B5ED8FF41DE431DD00EF5A42 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8FD21DE431DD00EF5A42 /* Food.m */; };
 		B5ED8FF51DE431DD00EF5A42 /* XmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8FD41DE431DD00EF5A42 /* XmlParser.m */; };
 		B5ED8FF61DE431DD00EF5A42 /* leftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8FD51DE431DD00EF5A42 /* leftTableViewCell.m */; };
 		B5ED8FF81DE4330E00EF5A42 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ED8FF71DE4330E00EF5A42 /* libxml2.tbd */; };
 		B5ED8FFA1DE4331900EF5A42 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ED8FF91DE4331900EF5A42 /* SystemConfiguration.framework */; };
 		B5ED8FFC1DE4332900EF5A42 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ED8FFB1DE4332900EF5A42 /* MobileCoreServices.framework */; };
 		B5ED8FFE1DE4333500EF5A42 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ED8FFD1DE4333500EF5A42 /* Security.framework */; };
-		B5ED90011DE435A700EF5A42 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8FFF1DE435A700EF5A42 /* FoodModel.xcdatamodeld */; };
 		B5ED90031DE43C9400EF5A42 /* DetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5ED90021DE43C9400EF5A42 /* DetailCollectionViewCell.xib */; };
 		B5ED90051DE4727D00EF5A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5ED90041DE4727D00EF5A42 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -74,11 +82,31 @@
 /* Begin PBXFileReference section */
 		B51F54181DE532C400AFEFDE /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
 		B51F54191DE532C400AFEFDE /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		B599911E1DEC0F5B00EB581A /* OrderCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCenter.h; sourceTree = "<group>"; };
+		B599911F1DEC0F5B00EB581A /* OrderCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCenter.m; sourceTree = "<group>"; };
+		B59991211DEC0F7F00EB581A /* OrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
+		B59991221DEC0F7F00EB581A /* OrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
+		B59991241DEC0FAF00EB581A /* OrderNoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderNoteView.h; sourceTree = "<group>"; };
+		B59991251DEC0FAF00EB581A /* OrderNoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderNoteView.m; sourceTree = "<group>"; };
+		B59991271DEC0FCB00EB581A /* OrderOperateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderOperateView.h; sourceTree = "<group>"; };
+		B59991281DEC0FCB00EB581A /* OrderOperateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderOperateView.m; sourceTree = "<group>"; };
+		B599912A1DEC0FF100EB581A /* OrderCommitOrderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCommitOrderView.h; sourceTree = "<group>"; };
+		B599912B1DEC0FF100EB581A /* OrderCommitOrderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCommitOrderView.m; sourceTree = "<group>"; };
+		B599912D1DEC101200EB581A /* OrderLinshiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderLinshiView.h; sourceTree = "<group>"; };
+		B599912E1DEC101200EB581A /* OrderLinshiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderLinshiView.m; sourceTree = "<group>"; };
+		B59991301DEC10DF00EB581A /* Order_iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Order_iPad-Prefix.pch"; sourceTree = "<group>"; };
+		B59991311DEC1D6000EB581A /* OrderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderView.h; sourceTree = "<group>"; };
+		B59991321DEC1D6000EB581A /* OrderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderView.m; sourceTree = "<group>"; };
+		B599913B1DEC2ECF00EB581A /* Order_iPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Order_iPad.xcdatamodel; sourceTree = "<group>"; };
+		B599913D1DEC301700EB581A /* Food+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Food+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B599913E1DEC301700EB581A /* Food+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Food+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B599913F1DEC301700EB581A /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		B59991401DEC301700EB581A /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		B59991431DEC339700EB581A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		B5ED8F521DE4309000EF5A42 /* Order_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Order_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ED8F561DE4309000EF5A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5ED8F581DE4309000EF5A42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5ED8F591DE4309000EF5A42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5ED8F621DE4309000EF5A42 /* Order_iPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Order_iPad.xcdatamodel; sourceTree = "<group>"; };
 		B5ED8F641DE4309000EF5A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5ED8F671DE4309000EF5A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5ED8F691DE4309000EF5A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -144,8 +172,6 @@
 		B5ED8FCB1DE431DD00EF5A42 /* foodInfo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = foodInfo.xml; sourceTree = "<group>"; };
 		B5ED8FCE1DE431DD00EF5A42 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
 		B5ED8FCF1DE431DD00EF5A42 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
-		B5ED8FD11DE431DD00EF5A42 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
-		B5ED8FD21DE431DD00EF5A42 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 		B5ED8FD31DE431DD00EF5A42 /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
 		B5ED8FD41DE431DD00EF5A42 /* XmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParser.m; sourceTree = "<group>"; };
 		B5ED8FD51DE431DD00EF5A42 /* leftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftTableViewCell.m; sourceTree = "<group>"; };
@@ -154,7 +180,6 @@
 		B5ED8FF91DE4331900EF5A42 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B5ED8FFB1DE4332900EF5A42 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		B5ED8FFD1DE4333500EF5A42 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		B5ED90001DE435A700EF5A42 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		B5ED90021DE43C9400EF5A42 /* DetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCollectionViewCell.xib; sourceTree = "<group>"; };
 		B5ED90041DE4727D00EF5A42 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59991441DEC339700EB581A /* libsqlite3.tbd in Frameworks */,
 				B5ED8FFE1DE4333500EF5A42 /* Security.framework in Frameworks */,
 				B5ED8FFC1DE4332900EF5A42 /* MobileCoreServices.framework in Frameworks */,
 				B5ED8FFA1DE4331900EF5A42 /* SystemConfiguration.framework in Frameworks */,
@@ -188,9 +214,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B59991051DEC0C0300EB581A /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				B59991311DEC1D6000EB581A /* OrderView.h */,
+				B59991321DEC1D6000EB581A /* OrderView.m */,
+				B59991211DEC0F7F00EB581A /* OrderTableViewCell.h */,
+				B59991221DEC0F7F00EB581A /* OrderTableViewCell.m */,
+				B599911E1DEC0F5B00EB581A /* OrderCenter.h */,
+				B599911F1DEC0F5B00EB581A /* OrderCenter.m */,
+				B59991241DEC0FAF00EB581A /* OrderNoteView.h */,
+				B59991251DEC0FAF00EB581A /* OrderNoteView.m */,
+				B59991271DEC0FCB00EB581A /* OrderOperateView.h */,
+				B59991281DEC0FCB00EB581A /* OrderOperateView.m */,
+				B599912A1DEC0FF100EB581A /* OrderCommitOrderView.h */,
+				B599912B1DEC0FF100EB581A /* OrderCommitOrderView.m */,
+				B599912D1DEC101200EB581A /* OrderLinshiView.h */,
+				B599912E1DEC101200EB581A /* OrderLinshiView.m */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
 		B5ED8F491DE4309000EF5A42 = {
 			isa = PBXGroup;
 			children = (
+				B59991431DEC339700EB581A /* libsqlite3.tbd */,
+				B599913D1DEC301700EB581A /* Food+CoreDataProperties.h */,
+				B599913E1DEC301700EB581A /* Food+CoreDataProperties.m */,
+				B599913F1DEC301700EB581A /* Food.h */,
+				B59991401DEC301700EB581A /* Food.m */,
 				B5ED8FFD1DE4333500EF5A42 /* Security.framework */,
 				B5ED8FFB1DE4332900EF5A42 /* MobileCoreServices.framework */,
 				B5ED8FF91DE4331900EF5A42 /* SystemConfiguration.framework */,
@@ -215,10 +267,10 @@
 		B5ED8F541DE4309000EF5A42 /* Order_iPad */ = {
 			isa = PBXGroup;
 			children = (
-				B5ED8FFF1DE435A700EF5A42 /* FoodModel.xcdatamodeld */,
 				B5ED8F8B1DE431DD00EF5A42 /* AFNetworking */,
 				B5ED8FCC1DE431DD00EF5A42 /* nerwork */,
 				B5ED8FB61DE431DD00EF5A42 /* KissXML */,
+				B59991051DEC0C0300EB581A /* Order */,
 				B5ED8F581DE4309000EF5A42 /* AppDelegate.h */,
 				B5ED8F591DE4309000EF5A42 /* AppDelegate.m */,
 				B5ED8FB41DE431DD00EF5A42 /* LeftMenuTableViewController.h */,
@@ -235,9 +287,9 @@
 				B5ED8FCA1DE431DD00EF5A42 /* Resource */,
 				B5ED90041DE4727D00EF5A42 /* Main.storyboard */,
 				B5ED8F641DE4309000EF5A42 /* Assets.xcassets */,
+				B599913A1DEC2ECF00EB581A /* Order_iPad.xcdatamodeld */,
 				B5ED8F661DE4309000EF5A42 /* LaunchScreen.storyboard */,
 				B5ED8F691DE4309000EF5A42 /* Info.plist */,
-				B5ED8F611DE4309000EF5A42 /* Order_iPad.xcdatamodeld */,
 				B5ED8F551DE4309000EF5A42 /* Supporting Files */,
 			);
 			path = Order_iPad;
@@ -382,6 +434,7 @@
 			isa = PBXGroup;
 			children = (
 				B5ED8FCB1DE431DD00EF5A42 /* foodInfo.xml */,
+				B59991301DEC10DF00EB581A /* Order_iPad-Prefix.pch */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -407,8 +460,6 @@
 		B5ED8FD01DE431DD00EF5A42 /* XMLParser */ = {
 			isa = PBXGroup;
 			children = (
-				B5ED8FD11DE431DD00EF5A42 /* Food.h */,
-				B5ED8FD21DE431DD00EF5A42 /* Food.m */,
 				B5ED8FD31DE431DD00EF5A42 /* XmlParser.h */,
 				B5ED8FD41DE431DD00EF5A42 /* XmlParser.m */,
 			);
@@ -424,8 +475,8 @@
 			buildConfigurationList = B5ED8F821DE4309100EF5A42 /* Build configuration list for PBXNativeTarget "Order_iPad" */;
 			buildPhases = (
 				B5ED8F4E1DE4309000EF5A42 /* Sources */,
-				B5ED8F4F1DE4309000EF5A42 /* Frameworks */,
 				B5ED8F501DE4309000EF5A42 /* Resources */,
+				B5ED8F4F1DE4309000EF5A42 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -550,14 +601,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59991421DEC301700EB581A /* Food.m in Sources */,
 				B5ED8FD91DE431DD00EF5A42 /* AFSecurityPolicy.m in Sources */,
 				B5ED8FE41DE431DD00EF5A42 /* UIImageView+AFNetworking.m in Sources */,
-				B5ED8FF41DE431DD00EF5A42 /* Food.m in Sources */,
 				B5ED8FDB1DE431DD00EF5A42 /* AFURLResponseSerialization.m in Sources */,
 				B5ED8FF51DE431DD00EF5A42 /* XmlParser.m in Sources */,
-				B5ED8F631DE4309000EF5A42 /* Order_iPad.xcdatamodeld in Sources */,
 				B5ED8FE51DE431DD00EF5A42 /* UIProgressView+AFNetworking.m in Sources */,
-				B5ED90011DE435A700EF5A42 /* FoodModel.xcdatamodeld in Sources */,
 				B5ED8FEE1DE431DD00EF5A42 /* DDXMLElement.m in Sources */,
 				B51F541A1DE532C400AFEFDE /* HomeView.m in Sources */,
 				B5ED8FE01DE431DD00EF5A42 /* AFImageDownloader.m in Sources */,
@@ -568,16 +617,25 @@
 				B5ED8FE21DE431DD00EF5A42 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				B5ED8FD71DE431DD00EF5A42 /* AFHTTPSessionManager.m in Sources */,
 				B5ED8FE61DE431DD00EF5A42 /* UIRefreshControl+AFNetworking.m in Sources */,
+				B599912F1DEC101200EB581A /* OrderLinshiView.m in Sources */,
 				B5ED8FED1DE431DD00EF5A42 /* DDXMLDocument.m in Sources */,
+				B59991201DEC0F5B00EB581A /* OrderCenter.m in Sources */,
 				B5ED8FF61DE431DD00EF5A42 /* leftTableViewCell.m in Sources */,
 				B5ED8FEC1DE431DD00EF5A42 /* NSString+DDXML.m in Sources */,
 				B5ED8FE71DE431DD00EF5A42 /* UIWebView+AFNetworking.m in Sources */,
 				B5ED8FDC1DE431DD00EF5A42 /* AFURLSessionManager.m in Sources */,
+				B599913C1DEC2ECF00EB581A /* Order_iPad.xcdatamodeld in Sources */,
+				B59991231DEC0F7F00EB581A /* OrderTableViewCell.m in Sources */,
 				B5ED8F5A1DE4309000EF5A42 /* AppDelegate.m in Sources */,
+				B59991261DEC0FAF00EB581A /* OrderNoteView.m in Sources */,
+				B59991331DEC1D6000EB581A /* OrderView.m in Sources */,
 				B5ED8FD81DE431DD00EF5A42 /* AFNetworkReachabilityManager.m in Sources */,
+				B599912C1DEC0FF100EB581A /* OrderCommitOrderView.m in Sources */,
 				B5ED8FEF1DE431DD00EF5A42 /* DDXMLNode.m in Sources */,
+				B59991291DEC0FCB00EB581A /* OrderOperateView.m in Sources */,
 				B5ED8F571DE4309000EF5A42 /* main.m in Sources */,
 				B5ED8FEB1DE431DD00EF5A42 /* DDXMLElementAdditions.m in Sources */,
+				B59991411DEC301700EB581A /* Food+CoreDataProperties.m in Sources */,
 				B5ED8FE11DE431DD00EF5A42 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				B5ED8FDA1DE431DD00EF5A42 /* AFURLRequestSerialization.m in Sources */,
 				B5ED8FF31DE431DD00EF5A42 /* AFAppDotNetAPIClient.m in Sources */,
@@ -716,6 +774,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/lucid/Desktop/Order_iPad/Order_iPad/Resource/Order_iPad-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = Order_iPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -729,6 +789,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/lucid/Desktop/Order_iPad/Order_iPad/Resource/Order_iPad-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = Order_iPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -826,23 +888,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B5ED8F611DE4309000EF5A42 /* Order_iPad.xcdatamodeld */ = {
+		B599913A1DEC2ECF00EB581A /* Order_iPad.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B5ED8F621DE4309000EF5A42 /* Order_iPad.xcdatamodel */,
+				B599913B1DEC2ECF00EB581A /* Order_iPad.xcdatamodel */,
 			);
-			currentVersion = B5ED8F621DE4309000EF5A42 /* Order_iPad.xcdatamodel */;
+			currentVersion = B599913B1DEC2ECF00EB581A /* Order_iPad.xcdatamodel */;
 			path = Order_iPad.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		B5ED8FFF1DE435A700EF5A42 /* FoodModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B5ED90001DE435A700EF5A42 /* FoodModel.xcdatamodel */,
-			);
-			currentVersion = B5ED90001DE435A700EF5A42 /* FoodModel.xcdatamodel */;
-			path = FoodModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

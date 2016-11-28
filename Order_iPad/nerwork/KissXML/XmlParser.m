@@ -5,12 +5,19 @@
 //  Created by lucid on 16/6/10.
 //  Copyright © 2016年 lucid. All rights reserved.
 //
-
+#import <CoreData/CoreData.h>
 #import "XmlParser.h"
 #import "DDXMLDocument.h"
 #import "DDXMLElement.h"
 #import "DDXMLNode.h"
-#import "Food.h"
+#import "Food+CoreDataProperties.h"
+#import "AppDelegate.h"
+
+@interface XmlParser ()
+@property (nonatomic, weak) AppDelegate* appDelegate;
+
+@end
+
 @implementation XmlParser
 
 
@@ -70,9 +77,12 @@ static XmlParser *xmlParser_ = nil;
     
     
     for (DDXMLElement *f_ in foods) {
-        
-        Food *f = [[Food alloc] init];
+        self.appDelegate = [UIApplication sharedApplication].delegate;
+//        Food *f = [[Food alloc] init];
+        Food *f = [NSEntityDescription insertNewObjectForEntityForName:@"Food" inManagedObjectContext:self.appDelegate.managedObjectContext];
 
+//        Food *f = [[Food alloc]initWithEntity:[NSEntityDescription entityForName:@"Food" inManagedObjectContext:self.appDelegate.managedObjectContext] insertIntoManagedObjectContext:self.appDelegate.managedObjectContext];
+        
         [[root elementsForName:@"Result"] lastObject];
         DDXMLElement *FoodsCodeId   = [[f_ elementsForName:@"FoodsCodeId"] lastObject];     //ID
         DDXMLElement *FoodsEngName  = [[f_ elementsForName:@"FoodsEngName"] lastObject];    //英文名
@@ -104,31 +114,31 @@ static XmlParser *xmlParser_ = nil;
 //            [photoPicarr addObject:urlString];
 //        }
         if (FoodsCodeId) {
-            f.FoodsCodeId = FoodsCodeId.stringValue;
+            f.foodsCodeId = FoodsCodeId.stringValue;
         }
         if (FoodsEngName) {
-            f.FoodsEngName = FoodsEngName.stringValue;
+            f.foodsEngName = FoodsEngName.stringValue;
         }
         if (FoodsChiName) {
-            f.FoodsChiName = FoodsChiName.stringValue;
+            f.foodsChiName = FoodsChiName.stringValue;
         }
         if (FoodsStyle) {
-            f.FoodsStyle = FoodsStyle.stringValue;
+            f.foodsStyle = FoodsStyle.stringValue;
         }
         if (FoodsMode) {
-            f.FoodsMode = FoodsMode.stringValue;
+            f.foodsMode = FoodsMode.stringValue;
         }
         if (Price) {
-            f.Price = Price.stringValue;
+            f.price = Price.stringValue;
         }
         if (HolidayPrice) {
-            f.HolidayPrice = HolidayPrice.stringValue;
+            f.holidayPrice = HolidayPrice.stringValue;
         }
         if (DisPriceRate) {
-            f.DisPriceRate = DisPriceRate.stringValue;
+            f.disPriceRate = DisPriceRate.stringValue;
         }
         if (AttachCategory) {
-            f.AttachCategory = AttachCategory.stringValue;
+            f.attachCategory = AttachCategory.stringValue;
             if ([AttachCategory.stringValue length] > 0) {
                 NSMutableArray *food_Category = [food_dict objectForKey:AttachCategory.stringValue];
                 if (!food_Category) {
@@ -151,32 +161,40 @@ static XmlParser *xmlParser_ = nil;
             f.coursecode = coursecode.stringValue;
         }
         if (MainMaterial) {
-            f.MainMaterial = MainMaterial.stringValue;
+            f.mainMaterial = MainMaterial.stringValue;
         }
         if (Taste) {
-            f.Taste = Taste.stringValue;
+            f.taste = Taste.stringValue;
         }
         if (Cookery) {
-            f.Cookery = Cookery.stringValue;
+            f.cookery = Cookery.stringValue;
         }
         if (Note) {
-            f.Note = Note.stringValue;
+            f.note = Note.stringValue;
         }
         if (PicListPath) {
-            f.PicListPath = PicListPath.stringValue;
+            f.picListPath = PicListPath.stringValue;
             
 //            [photos addObject:f.PicListPath];
         }
         if (PicBigPath) {
-            f.PicBigPath = PicBigPath.stringValue;
+            f.picBigPath = PicBigPath.stringValue;
             
 //            [photos addObject:f.PicBigPath];
         }
         if (PicSmallPath) {
-            f.PicSmallPath = PicSmallPath.stringValue;
+            f.picSmallPath = PicSmallPath.stringValue;
             
 //            [photos addObject:f.PicSmallPath];
         }
+        
+//        NSError *error;
+//        // 设置完实体属性之后，调用托管对象上下文的save:方法将实体写入数据库。如果保存成功
+//        if ([self.appDelegate.managedObjectContext save:&error]){
+//            NSLog(@"保存成功");
+//        } else {
+//            NSLog(@"保存实体出错: %@", error);
+//        }
 
         
         

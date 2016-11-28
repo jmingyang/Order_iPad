@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "LeftMenuTableViewController.h"
+#import "OrderView.h"
 #import "HomeView.h"
 
 @interface DetailViewController : UIViewController<UISplitViewControllerDelegate,UICollectionViewDataSource , UICollectionViewDelegate , UICollectionViewDelegateFlowLayout,LeftMenuVCDelegate>
 {
     HomeView *homePage;
+    OrderView *orderView;
 
 }
 @property (strong, nonatomic) NSMutableDictionary *PhotoDic;//图片

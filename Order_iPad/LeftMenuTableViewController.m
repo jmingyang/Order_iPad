@@ -27,9 +27,14 @@
     
     self.title =@"菜类";
     
-    self.view.backgroundColor = [UIColor blackColor];
+    UIImageView *content_background = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 1366, 1024)];
+    [content_background setImage:[UIImage imageNamed:@"Background.jpg"]];
+    [self.view insertSubview:content_background atIndex:0];
+    
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20],NSForegroundColorAttributeName:[UIColor whiteColor]}];
     self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
+    
+    
     
     NSLog(@"%@",[[NSBundle mainBundle] pathForResource:@"foodInfo.xml" ofType:nil]);
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"foodInfo.xml" ofType:nil];
